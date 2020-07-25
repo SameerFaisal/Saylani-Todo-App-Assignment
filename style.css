@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: blueviolet;
+    height: 930px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.icon {
+    margin: 0 5px 0 5px !important;
+    cursor: pointer;
+    color: white !important;
+}
+
+.trash {
+    margin-left: 20px !important;
+    color: white !important;
+}
+
+.jumbotron {
+    background: none;
+    color: white;
+}
+
+.todoInput {
+    padding: 10px !important;
+    border: none !important;
+    background: white;
+    border-radius: 15px !important;
+    font-weight: bolder !important;
+    color: black !important;
+}
+
+.todoLi {
+    font-weight: bolder !important;
+    letter-spacing: 1.4px !important;
+}
+
+.todoInput:focus {
+    border-radius: 15px !important;
+    background-color: white;
+}
+
+#list {
+    overflow-y: auto;
+    list-style: none;
+    border: 2px solid white !important;
+}
+
+@media only screen and (max-width: 415px) {
+    .todoInput {
+        width: 100% !important;
+    }
+}
